@@ -101,3 +101,35 @@ footer p {
     box-shadow: var(--shadow-2);
 
 }
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: var(--shadow-3);
+    color: white;
+    background-color: var(--primary-400);
+    cursor: pointer;
+}
+
+.show-img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.host-nav {
+    display: flex;
+    width: 20rem;
+    color: black;
+    justify-content: space-between;
+}
+
+.host-nav>a {
+    color: black;
+    font-size: 1.24rem;
+}
+
+.host-nav>a:hover {
+    color: purple;
+}

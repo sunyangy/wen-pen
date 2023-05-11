@@ -77,7 +77,7 @@ createServer({
 
     this.get('/pens/:id', (schema, request) => {
       const id = request.params.id;
-      return schema.vans.find(id);
+      return schema.pens.find(id);
     });
   },
 });
